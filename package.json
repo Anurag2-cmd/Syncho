@@ -4,8 +4,8 @@
   "private": true,
   "description": "Multi-device synchronized audio playback",
   "scripts": {
-    "dev:server": "cd server && npm run dev",
-    "dev:client": "cd client && npm start",
+"dev:server": "cd server && PORT=3001 npm run dev",
+"dev:client": "cd client && npm start",
     "install:all": "cd server && npm install && cd ../client && npm install"
   }
 }
